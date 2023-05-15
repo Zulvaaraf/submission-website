@@ -107,14 +107,6 @@ main .content-description h2 {
     text-shadow: #ffff 1px 0 10px;
 }
 
-main .content-description p {
-    color: white;
-    font-size: 1vw;
-    text-shadow: #ffff 1px 0 10px;
-    letter-spacing: 3px;
-    z-index: 999;
-}
-
 
 
 @media (max-width: 768px) {
