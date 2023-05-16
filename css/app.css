@@ -133,6 +133,10 @@ main .content-aboutme aside {
     flex-direction: column;
 }
 
+main .content-biodata {
+    width: 100%;
+}
+
 aside .introduce-aboutme {
     width: 70%;
     margin-inline: auto;
@@ -144,6 +148,23 @@ aside .introduce-aboutme h3 {
     font-size: .9rem;
     font-weight: 300;
     text-align: center;
+}
+
+aside .content-card {
+    width: 70%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-block: 1rem;
+    margin-inline: auto;
+    gap: 1.2rem;
+}
+
+aside .content-card img {
+    margin-inline: auto;
+    width: 200px;
+    border-radius: 50%;
 }
 
 
