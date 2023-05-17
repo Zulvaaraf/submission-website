@@ -113,7 +113,6 @@ main .content-description p {
 
 main .content-aboutme {
     width: 80%;
-    height: 400px;
     max-width: 1200px;
     display: flex;
     flex-direction: column;
@@ -139,6 +138,7 @@ main .content-biodata {
 
 aside .introduce-aboutme {
     width: 70%;
+    padding-block: 1rem;
     margin-inline: auto;
     display: flex;
     justify-content: flex-end;
@@ -167,8 +167,121 @@ aside .content-card img {
     border-radius: 50%;
 }
 
+aside .content-card .content h3 {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
 
-@media (max-width: 768px) {}
+aside .content-card .content p {
+    font-weight: 300;
+}
+
+aside .content-card .content.name {
+    padding: 5px;
+}
+
+aside .content-card .content.address {
+    padding: 5px;
+    background-color: #EEEEEE;
+}
+
+aside .content-card .content.phone {
+    padding: 5px;
+}
+
+aside .content-card .content.email {
+    padding: 5px;
+    background-color: #EEEEEE;
+}
+
+main .content-skills {
+    width: 80%;
+    height: 500px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+main .content-skills .headline h2 {
+    margin: 50px;
+    font-size: 1.7rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: .3rem;
+}
+
+main .container-skills {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+main .container-skills img {
+    width: 50px;
+}
+
+main .container-skills .skill {
+    width: 200px;
+    margin-block: .5rem;
+    margin-inline: auto;
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+main .container-skills .skill h3 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+}
+
+footer .social-link {
+    width: 100%;
+    height: 200px;
+    max-width: 1200px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+footer .social-link ul {
+    width: 80%;
+    padding-block: 1rem;
+    margin-inline: auto;
+    list-style-type: none;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+footer .copyright {
+    width: 80%;
+    margin-inline: auto;
+    padding-block: 1rem;
+}
+
+
+footer .social-link img {
+    width: 40px;
+    border-radius: 50%;
+}
 
 @media (max-width: 576px) {
     header .navbar {
@@ -211,5 +324,9 @@ aside .content-card img {
     main .content-description p {
         font-size: .5em;
         text-align: center;
+    }
+
+    aside .content-card {
+        width: 100%;
     }
 }
